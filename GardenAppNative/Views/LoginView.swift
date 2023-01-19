@@ -49,7 +49,7 @@ struct LoginView: View {
                 
                 Text("Password").font(.title3.bold()).frame(maxWidth: .infinity, alignment: .leading).padding(.leading, 30)
                 
-                TextField("Your Password...", text: $passsword)
+                SecureField("Your Password...", text: $passsword)
                     .padding(15)
                     .padding(.horizontal, 10)
                     .background(Color(.systemGray6))
