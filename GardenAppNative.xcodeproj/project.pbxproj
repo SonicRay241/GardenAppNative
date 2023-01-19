@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		868F867C2978C12E00ED2AA2 /* GardenAppNativeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868F867B2978C12E00ED2AA2 /* GardenAppNativeApp.swift */; };
+		868F867E2978C12E00ED2AA2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868F867D2978C12E00ED2AA2 /* ContentView.swift */; };
+		868F86802978C13000ED2AA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 868F867F2978C13000ED2AA2 /* Assets.xcassets */; };
+		868F86832978C13000ED2AA2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 868F86822978C13000ED2AA2 /* Preview Assets.xcassets */; };
+		868F868D2978C13000ED2AA2 /* GardenAppNativeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868F868C2978C13000ED2AA2 /* GardenAppNativeTests.swift */; };
+		868F86972978C13000ED2AA2 /* GardenAppNativeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868F86962978C13000ED2AA2 /* GardenAppNativeUITests.swift */; };
+		868F86992978C13000ED2AA2 /* GardenAppNativeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868F86982978C13000ED2AA2 /* GardenAppNativeUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		868F86892978C13000ED2AA2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 868F86702978C12E00ED2AA2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 868F86772978C12E00ED2AA2;
+			remoteInfo = GardenAppNative;
+		};
+		868F86932978C13000ED2AA2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 868F86702978C12E00ED2AA2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 868F86772978C12E00ED2AA2;
+			remoteInfo = GardenAppNative;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		868F86782978C12E00ED2AA2 /* GardenAppNative.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GardenAppNative.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		868F867B2978C12E00ED2AA2 /* GardenAppNativeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GardenAppNativeApp.swift; sourceTree = "<group>"; };
+		868F867D2978C12E00ED2AA2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		868F867F2978C13000ED2AA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		868F86822978C13000ED2AA2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		868F86882978C13000ED2AA2 /* GardenAppNativeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GardenAppNativeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		868F868C2978C13000ED2AA2 /* GardenAppNativeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GardenAppNativeTests.swift; sourceTree = "<group>"; };
+		868F86922978C13000ED2AA2 /* GardenAppNativeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GardenAppNativeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		868F86962978C13000ED2AA2 /* GardenAppNativeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GardenAppNativeUITests.swift; sourceTree = "<group>"; };
+		868F86982978C13000ED2AA2 /* GardenAppNativeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GardenAppNativeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		868F86752978C12E00ED2AA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		868F86852978C13000ED2AA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		868F868F2978C13000ED2AA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		868F866F2978C12E00ED2AA2 = {
+			isa = PBXGroup;
+			children = (
+				868F867A2978C12E00ED2AA2 /* GardenAppNative */,
+				868F868B2978C13000ED2AA2 /* GardenAppNativeTests */,
+				868F86952978C13000ED2AA2 /* GardenAppNativeUITests */,
+				868F86792978C12E00ED2AA2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		868F86792978C12E00ED2AA2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				868F86782978C12E00ED2AA2 /* GardenAppNative.app */,
+				868F86882978C13000ED2AA2 /* GardenAppNativeTests.xctest */,
+				868F86922978C13000ED2AA2 /* GardenAppNativeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		868F867A2978C12E00ED2AA2 /* GardenAppNative */ = {
+			isa = PBXGroup;
+			children = (
+				868F867B2978C12E00ED2AA2 /* GardenAppNativeApp.swift */,
+				868F867D2978C12E00ED2AA2 /* ContentView.swift */,
+				868F867F2978C13000ED2AA2 /* Assets.xcassets */,
+				868F86812978C13000ED2AA2 /* Preview Content */,
+			);
+			path = GardenAppNative;
+			sourceTree = "<group>";
+		};
+		868F86812978C13000ED2AA2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				868F86822978C13000ED2AA2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		868F868B2978C13000ED2AA2 /* GardenAppNativeTests */ = {
+			isa = PBXGroup;
+			children = (
+				868F868C2978C13000ED2AA2 /* GardenAppNativeTests.swift */,
+			);
+			path = GardenAppNativeTests;
+			sourceTree = "<group>";
+		};
+		868F86952978C13000ED2AA2 /* GardenAppNativeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				868F86962978C13000ED2AA2 /* GardenAppNativeUITests.swift */,
+				868F86982978C13000ED2AA2 /* GardenAppNativeUITestsLaunchTests.swift */,
+			);
+			path = GardenAppNativeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		868F86772978C12E00ED2AA2 /* GardenAppNative */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 868F869C2978C13000ED2AA2 /* Build configuration list for PBXNativeTarget "GardenAppNative" */;
+			buildPhases = (
+				868F86742978C12E00ED2AA2 /* Sources */,
+				868F86752978C12E00ED2AA2 /* Frameworks */,
+				868F86762978C12E00ED2AA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GardenAppNative;
+			productName = GardenAppNative;
+			productReference = 868F86782978C12E00ED2AA2 /* GardenAppNative.app */;
+			productType = "com.apple.product-type.application";
+		};
+		868F86872978C13000ED2AA2 /* GardenAppNativeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 868F869F2978C13000ED2AA2 /* Build configuration list for PBXNativeTarget "GardenAppNativeTests" */;
+			buildPhases = (
+				868F86842978C13000ED2AA2 /* Sources */,
+				868F86852978C13000ED2AA2 /* Frameworks */,
+				868F86862978C13000ED2AA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				868F868A2978C13000ED2AA2 /* PBXTargetDependency */,
+			);
+			name = GardenAppNativeTests;
+			productName = GardenAppNativeTests;
+			productReference = 868F86882978C13000ED2AA2 /* GardenAppNativeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		868F86912978C13000ED2AA2 /* GardenAppNativeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 868F86A22978C13000ED2AA2 /* Build configuration list for PBXNativeTarget "GardenAppNativeUITests" */;
+			buildPhases = (
+				868F868E2978C13000ED2AA2 /* Sources */,
+				868F868F2978C13000ED2AA2 /* Frameworks */,
+				868F86902978C13000ED2AA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				868F86942978C13000ED2AA2 /* PBXTargetDependency */,
+			);
+			name = GardenAppNativeUITests;
+			productName = GardenAppNativeUITests;
+			productReference = 868F86922978C13000ED2AA2 /* GardenAppNativeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		868F86702978C12E00ED2AA2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					868F86772978C12E00ED2AA2 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					868F86872978C13000ED2AA2 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 868F86772978C12E00ED2AA2;
+					};
+					868F86912978C13000ED2AA2 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 868F86772978C12E00ED2AA2;
+					};
+				};
+			};
+			buildConfigurationList = 868F86732978C12E00ED2AA2 /* Build configuration list for PBXProject "GardenAppNative" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 868F866F2978C12E00ED2AA2;
+			productRefGroup = 868F86792978C12E00ED2AA2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				868F86772978C12E00ED2AA2 /* GardenAppNative */,
+				868F86872978C13000ED2AA2 /* GardenAppNativeTests */,
+				868F86912978C13000ED2AA2 /* GardenAppNativeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		868F86762978C12E00ED2AA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				868F86832978C13000ED2AA2 /* Preview Assets.xcassets in Resources */,
+				868F86802978C13000ED2AA2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		868F86862978C13000ED2AA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		868F86902978C13000ED2AA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		868F86742978C12E00ED2AA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				868F867E2978C12E00ED2AA2 /* ContentView.swift in Sources */,
+				868F867C2978C12E00ED2AA2 /* GardenAppNativeApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		868F86842978C13000ED2AA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				868F868D2978C13000ED2AA2 /* GardenAppNativeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		868F868E2978C13000ED2AA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				868F86992978C13000ED2AA2 /* GardenAppNativeUITestsLaunchTests.swift in Sources */,
+				868F86972978C13000ED2AA2 /* GardenAppNativeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		868F868A2978C13000ED2AA2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 868F86772978C12E00ED2AA2 /* GardenAppNative */;
+			targetProxy = 868F86892978C13000ED2AA2 /* PBXContainerItemProxy */;
+		};
+		868F86942978C13000ED2AA2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 868F86772978C12E00ED2AA2 /* GardenAppNative */;
+			targetProxy = 868F86932978C13000ED2AA2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		868F869A2978C13000ED2AA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		868F869B2978C13000ED2AA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		868F869D2978C13000ED2AA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GardenAppNative/Preview Content\"";
+				DEVELOPMENT_TEAM = 6H4MY6TQUL;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-41.GardenAppNative";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		868F869E2978C13000ED2AA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GardenAppNative/Preview Content\"";
+				DEVELOPMENT_TEAM = 6H4MY6TQUL;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-41.GardenAppNative";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		868F86A02978C13000ED2AA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6H4MY6TQUL;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-41.GardenAppNativeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GardenAppNative.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GardenAppNative";
+			};
+			name = Debug;
+		};
+		868F86A12978C13000ED2AA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6H4MY6TQUL;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-41.GardenAppNativeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GardenAppNative.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GardenAppNative";
+			};
+			name = Release;
+		};
+		868F86A32978C13000ED2AA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6H4MY6TQUL;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-41.GardenAppNativeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GardenAppNative;
+			};
+			name = Debug;
+		};
+		868F86A42978C13000ED2AA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6H4MY6TQUL;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-41.GardenAppNativeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GardenAppNative;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		868F86732978C12E00ED2AA2 /* Build configuration list for PBXProject "GardenAppNative" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				868F869A2978C13000ED2AA2 /* Debug */,
+				868F869B2978C13000ED2AA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		868F869C2978C13000ED2AA2 /* Build configuration list for PBXNativeTarget "GardenAppNative" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				868F869D2978C13000ED2AA2 /* Debug */,
+				868F869E2978C13000ED2AA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		868F869F2978C13000ED2AA2 /* Build configuration list for PBXNativeTarget "GardenAppNativeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				868F86A02978C13000ED2AA2 /* Debug */,
+				868F86A12978C13000ED2AA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		868F86A22978C13000ED2AA2 /* Build configuration list for PBXNativeTarget "GardenAppNativeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				868F86A32978C13000ED2AA2 /* Debug */,
+				868F86A42978C13000ED2AA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 868F86702978C12E00ED2AA2 /* Project object */;
+}
